@@ -7,9 +7,9 @@ int partition(int* a, int left, int right); //Partitions the array in range [lef
 void swap(int* a, int* b); //Swaps the value of two pointers
 
 int main(void) { //main function header
-    int arr[] = {9,5,1,0,3,6,7,6}; //given array
-    qsort2(arr, 8); //call to quicksort
-    for(int i = 0; i < 8; i++){ //for loop to iterate over array
+    int arr[] = {4,65,2,-31,0,99,2,83,287,1}; //given array
+    qsort2(arr, 10); //call to quicksort
+    for(int i = 0; i < 10; i++){ //for loop to iterate over array
         printf("%d ", arr[i]); //print current element it's pointing to
     }
     return 0; //return 0 to indicate a successful execution
